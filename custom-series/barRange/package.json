@@ -1,0 +1,25 @@
+{
+  "name": "@echarts/custom-bar-range",
+  "version": "0.0.1",
+  "description": "Custom bar range series for Apache ECharts",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "echarts": "github:apache/echarts#v6"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
